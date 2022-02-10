@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这里注意namespace的后面应该是全路径名-->
+<mapper namespace="com.example.demo.Mapper.YjhXmlMapper">
+<!--    这里注意id应该是和接口名对应的-->
+    <select id="FindAll" resultType="yjh">
+        select * from yjh
+    </select>
+</mapper>
